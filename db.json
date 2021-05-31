@@ -1,0 +1,80 @@
+[
+  {
+    "template": {
+      "templateNo": "TEST",
+      "code": "TEST",
+      "currentNo": 1,
+      "active": true,
+      "description": "TEST",
+      "validFrom": 1621321391,
+      "type": "INVOICE",
+      "venture": "VN",
+      "issueRanges": [
+        {
+          "from": 0,
+          "to": 500
+        }
+      ],
+      "createdAt": 1621321391,
+      "path": "laz_invoice",
+      "id": 1,
+      "updatedAt": 1621321391
+    },
+    "autoSign": true,
+    "type": "INVOICE_TEST",
+    "uuid": "f40be134-6665-4af6-8af6-b62b75094854",
+    "venture": "TEST",
+    "metaData": {
+      "bill": {
+        "totalAmount": "653,446 VND",
+        "totalPayment": "718,791 VND",
+        "vatRate": "10",
+        "items": [
+          {
+            "amount": "150,870",
+            "unit": "VND",
+            "quantity": "1",
+            "price": "150,870",
+            "description": "Enormous Wool Car"
+          },
+          {
+            "amount": "121,430",
+            "unit": "VND",
+            "quantity": "1",
+            "price": "121,430",
+            "description": "Gorgeous Plastic Car"
+          },
+          {
+            "amount": "190,622",
+            "unit": "VND",
+            "quantity": "1",
+            "price": "190,622",
+            "description": "Rustic Cotton Bag"
+          },
+          {
+            "amount": "190,524",
+            "unit": "VND",
+            "quantity": "1",
+            "price": "190,524",
+            "description": "Durable Leather Gloves"
+          }
+        ],
+        "vatAmount": "65,345"
+      },
+      "issuer": {
+        "phone": "346-461-9733"
+      },
+      "customer": {
+        "bank": "TEST",
+        "address": "3566 Sabina Square, Shannyton, ND 14479",
+        "name": "Sid Mante DVM",
+        "paymentMethod": "Bank",
+        "company": "Kessler and Sons",
+        "taxCode": "NUUFBTKDLGL",
+        "account": "6767-9715-7245-8424-57"
+      }
+    },
+    "signType": "AUTO",
+    "status": "CREATED"
+  }
+]
